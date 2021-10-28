@@ -1,7 +1,7 @@
 # microservice
 
 <details>
-  <summary> ## Interduction </summary>
+## Interduction <summary>Click to expand</summary>
   
 Some of the defining characteristics that are frequently cited include:
 
