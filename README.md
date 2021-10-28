@@ -44,3 +44,16 @@
 * Deployment complexity. In production, there is also the operational complexity of deploying and managing a system comprised of many different services.
 * Increased memory consumption. The microservice architecture replaces N monolithic application instances with NxM services instances. If each service runs in its own JVM (or equivalent), which is usually necessary to isolate the instances, then there is the overhead of M times as many JVM runtimes. Moreover, if each service runs on its own VM (e.g. EC2 instance), as is the case at Netflix, the overhead is even higher.
 </details> 
+
+### How to partition the system into microservices
+<details>
+  <summary>Click to expand</summary>
+
+  This is very much an art, but there are a number of strategies that can help:
+  * Decompose by business capability and define services corresponding to business capabilities.
+  * Decompose by domain-driven design subdomain.
+  * Decompose by verb or use case and define services that are responsible for particular actions. e.g. a Shipping Service that’s responsible for shipping complete orders.
+  * Decompose by by nouns or resources by defining a service that is responsible for all operations on entities/resources of a given type. e.g. an Account Service that is responsible for managing user accounts.
+
+  Ideally, each service should have only a small set of responsibilities. Bob Martin talks about designing classes using the Single Responsibility Principle (SRP). The SRP defines a responsibility of a class as a reason to change, and states that a class should only have one reason to change. It make sense to apply the SRP to service design as well.
+</details>
