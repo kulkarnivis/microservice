@@ -1,7 +1,7 @@
 # microservice
 
 <details>
-  <summary># Interduction</summary>
+  <summary> ## Interduction </summary>
   
 Some of the defining characteristics that are frequently cited include:
 
@@ -17,5 +17,4 @@ Services in a microservice architecture are often processes that communicate ove
   * Adheres to principles such as fine-grained interfaces (to independently deployable services), business-driven development (e.g. domain-driven design).
 
   It is common for microservices architectures to be adopted for cloud-native applications, serverless computing, and applications using lightweight container deployment. According to Fowler, because of the large number (when compared to monolithic application implementations) of services, decentralized continuous delivery and DevOps with holistic service monitoring are necessary to effectively develop, maintain, and operate such applications.A consequence of (and rationale for) following this approach is that the individual microservices can be individually scaled. In the monolithic approach, an application supporting three functions would have to be scaled in its entirety even if only one of these functions had a resource constraint.With microservices, only the microservice supporting the function with resource constraints needs to be scaled out, thus providing resource and cost optimization benefits.
-  
 </details>
