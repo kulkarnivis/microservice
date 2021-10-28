@@ -21,21 +21,23 @@ There are many patterns related to the microservices pattern. The other patterns
   * Each team that owns one or more services must be autonomous. A team must be able to develop and deploy their services with minimal collaboration with other teams.
 
   ### Solution
-    Define services corresponding to business capabilities. A business capability is a concept from business architecture modeling. It is something that a business     does in order to generate value. A business capability often corresponds to a business object, e.g.
-    * Order Management is responsible for orders
-    * Customer Management is responsible for customers
-    * Business capabilities are often organized into a multi-level hierarchy. For example, an enterprise application might have top-level categories such as 
-Product/Service development, Product/Service delivery, Demand generation, etc.
+  Define services corresponding to business capabilities. A business capability is a concept from business architecture modeling. It is something that a business     does in order to generate value. A business capability often corresponds to a business object, e.g.
+
+  * Order Management is responsible for orders
+  * Customer Management is responsible for customers
+  * Business capabilities are often organized into a multi-level hierarchy. For example, an enterprise application might have top-level categories such as 
+
+  Product/Service development, Product/Service delivery, Demand generation, etc.
 
   ### Examples
-    The business capabilities of an online store include:
-    * Product catalog management
-    * Inventory management
-    * Order management
-    * Delivery management
+  The business capabilities of an online store include:
+  * Product catalog management
+  * Inventory management
+  * Order management
+  * Delivery management
 
-  The corresponding microservice architecture would have services corresponding to each of these capabilities. 
-  ![image](https://user-images.githubusercontent.com/51394570/139199844-c6419314-5eeb-4b51-8341-dd800dc5a6f6.png) 
+The corresponding microservice architecture would have services corresponding to each of these capabilities. 
+![image](https://user-images.githubusercontent.com/51394570/139199844-c6419314-5eeb-4b51-8341-dd800dc5a6f6.png) 
 </details>
 
 ## Decomposition
