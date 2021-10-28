@@ -10,7 +10,9 @@ There are many patterns related to the microservices pattern. The other patterns
   
   ### Pattern: Decompose by business capability Context
   How to decompose an application into services?
+  
   ### Forces
+  
   The architecture must be stable
     * Services must be cohesive. A service should implement a small set of strongly related functions.
     * Services must conform to the Common Closure Principle - things that change together should be packaged together - to ensure that each change affect only one    service
@@ -20,6 +22,7 @@ There are many patterns related to the microservices pattern. The other patterns
     * Each team that owns one or more services must be autonomous. A team must be able to develop and deploy their services with minimal collaboration with other teams.
 
   ### Solution
+  
     Define services corresponding to business capabilities. A business capability is a concept from business architecture modeling. It is something that a business     does in order to generate value. A business capability often corresponds to a business object, e.g.
       * Order Management is responsible for orders
       * Customer Management is responsible for customers
@@ -27,6 +30,7 @@ There are many patterns related to the microservices pattern. The other patterns
 Product/Service development, Product/Service delivery, Demand generation, etc.
 
   ### Examples
+  
     The business capabilities of an online store include:
       * Product catalog management
       * Inventory management
