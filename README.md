@@ -26,5 +26,21 @@
   The benefit of decomposing an application into different smaller services are numerous:
   * **Modularity**: This makes the application easier to understand, develop, test, and become more resilient to architecture erosion.This benefit is often argued in comparison to the complexity of monolithic architectures.
   * **Scalability**: Since microservices are implemented and deployed independently of each other, i.e. they run within independent processes, they can be monitored and scaled independently.
-  * **Distributed development**: it parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently. It also allows the architecture of an individual service to emerge through continuous refactoring.[40] Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
+  * **Distributed development**: it parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently. It also allows the architecture of an individual service to emerge through continuous refactoring. Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
+</details> 
+
+### Drawbacks
+<details>
+  <summary>Click to expand</summary>
+  
+  This solution has a number of drawbacks:
+
+* Developers must deal with the additional complexity of creating a distributed system:
+  * Developers must implement the inter-service communication mechanism and deal with partial failure
+  * Implementing requests that span multiple services is more difficult
+  * Testing the interactions between services is more difficult
+  * Implementing requests that span multiple services requires careful coordination between the teams
+  * Developer tools/IDEs are oriented on building monolithic applications and don’t provide explicit support for developing distributed applications.
+* Deployment complexity. In production, there is also the operational complexity of deploying and managing a system comprised of many different services.
+* Increased memory consumption. The microservice architecture replaces N monolithic application instances with NxM services instances. If each service runs in its own JVM (or equivalent), which is usually necessary to isolate the instances, then there is the overhead of M times as many JVM runtimes. Moreover, if each service runs on its own VM (e.g. EC2 instance), as is the case at Netflix, the overhead is even higher.
 </details> 
