@@ -57,3 +57,10 @@
 
   Ideally, each service should have only a small set of responsibilities. Bob Martin talks about designing classes using the Single Responsibility Principle (SRP). The SRP defines a responsibility of a class as a reason to change, and states that a class should only have one reason to change. It make sense to apply the SRP to service design as well.
 </details>
+
+## How to maintain data consistency?
+<details>
+  <summary>Click to expand</summary>
+  
+  In order to ensure loose coupling, each service has its own database. Maintaining data consistency between services is a challenge because 2 phase-commit/distributed transactions is not an option for many applications. An application must instead use the Saga pattern.
+</details>
