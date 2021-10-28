@@ -1,9 +1,8 @@
 # microservice
 
+# Interduction
 <details>
-  ## Interduction 
   <summary>Click to expand</summary>
-  
   Some of the defining characteristics that are frequently cited include:
 
   Services in a microservice architecture are often processes that communicate over a network to fulfill a goal using technology-agnostic protocols such as HTTP.
