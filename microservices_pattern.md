@@ -12,8 +12,8 @@ There are many patterns related to the microservices pattern. The other patterns
   How to decompose an application into services?
   
   ### Forces
-  
   The architecture must be stable
+  
     - Services must be cohesive. A service should implement a small set of strongly related functions.
     - Services must conform to the Common Closure Principle - things that change together should be packaged together - to ensure that each change affect only one    service
     - Services must be loosely coupled - each service as an API that encapsulates its implementation. The implementation can be changed without affecting clients
