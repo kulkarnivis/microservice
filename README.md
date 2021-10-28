@@ -18,3 +18,13 @@
 
     It is common for microservices architectures to be adopted for cloud-native applications, serverless computing, and applications using lightweight container deployment. According to Fowler, because of the large number (when compared to monolithic application implementations) of services, decentralized continuous delivery and DevOps with holistic service monitoring are necessary to effectively develop, maintain, and operate such applications.A consequence of (and rationale for) following this approach is that the individual microservices can be individually scaled. In the monolithic approach, an application supporting three functions would have to be scaled in its entirety even if only one of these functions had a resource constraint.With microservices, only the microservice supporting the function with resource constraints needs to be scaled out, thus providing resource and cost optimization benefits.
 </details>
+
+### Benifits
+<details>
+  <summary>Click to expand</summary>
+  
+  The benefit of decomposing an application into different smaller services are numerous:
+  * **Modularity**: This makes the application easier to understand, develop, test, and become more resilient to architecture erosion.This benefit is often argued in comparison to the complexity of monolithic architectures.
+  * Scalability: Since microservices are implemented and deployed independently of each other, i.e. they run within independent processes, they can be monitored and scaled independently.
+  * Distributed development: it parallelizes development by enabling small autonomous teams to develop, deploy and scale their respective services independently. It also allows the architecture of an individual service to emerge through continuous refactoring.[40] Microservice-based architectures facilitate continuous integration, continuous delivery and deployment.
+</details> 
