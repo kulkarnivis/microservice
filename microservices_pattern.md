@@ -6,36 +6,8 @@ There are many patterns related to the microservices pattern. The other patterns
 
 ## Decomposition
 <details>
-  <summary>Click here to expand</summary>
-
+  <summary>Click to expand</summary>
   
-</details>
-
-## Decomposition
-<details>
-  <summary>Click here to expand</summary>
-
-  
-</details>
-
-## Decomposition
-<details>
-  <summary>Click here to expand</summary>
-
-  
-</details>
-
-## Decomposition
-<details>
-  <summary>Click here to expand</summary>
-
-  
-</details>
-
-## Decomposition
-<details>
-  <summary>Click here to expand</summary>
-
   ### Pattern: Decompose by business capability Context
   How to decompose an application into services?
   ### Forces
