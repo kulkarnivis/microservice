@@ -37,6 +37,7 @@ There are many patterns related to the microservices pattern. The other patterns
   * Delivery management
 
 The corresponding microservice architecture would have services corresponding to each of these capabilities. 
+  
 ![image](https://user-images.githubusercontent.com/51394570/139199844-c6419314-5eeb-4b51-8341-dd800dc5a6f6.png) 
 </details>
 
