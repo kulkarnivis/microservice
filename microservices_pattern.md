@@ -6,9 +6,8 @@ There are many patterns related to the microservices pattern. The other patterns
 
 ## Decomposition
 <details>
-  <summary>Click to expand</summary>
+  <summary>Pattern: Decompose by business capability Context</summary>
   
-  ### Pattern: Decompose by business capability Context
   How to decompose an application into services?
   
   ### Forces
@@ -41,10 +40,16 @@ The corresponding microservice architecture would have services corresponding to
 ![image](https://user-images.githubusercontent.com/51394570/139199844-c6419314-5eeb-4b51-8341-dd800dc5a6f6.png) 
 </details>
 
+<details>
+  <summary>Pattern: Decompose by subdomain Context</summary>
+  
+  How to decompose an application into services?
+</details>
 ## Decomposition
 <details>
   <summary>Click here to expand</summary>
 
+  
   
 </details>
 
